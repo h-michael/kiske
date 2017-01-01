@@ -57,4 +57,5 @@ PROMPT='
 %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(git_prompt_info) %{$fg_bold[red]%}%*%{$reset_color%}
 $ '
 
-RPROMPT='$(ruby_prompt) $(node_prompt) $(python_prompt) $(go_prompt)'
+# RPROMPT='$(ruby_prompt) $(node_prompt) $(python_prompt) $(go_prompt)'
+RPROMPT='$(ruby_prompt) $(node_prompt) $(go_prompt)'
