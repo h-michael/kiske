@@ -15,7 +15,7 @@ node_version() {
   node -v 2>/dev/null | awk '{print $1}'
 }
 
-pyhon_version() {
+python_version() {
   pyenv --version 2>/dev/null | awk '{print $2}'
 }
 
