@@ -16,7 +16,7 @@ node_version() {
 }
 
 python_version() {
-  pyenv --version 2>/dev/null | awk '{print $2}'
+  python --version 2>/dev/null | awk '{print $2}'
 }
 
 go_version() {
